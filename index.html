@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Shopping Cart</title>
+</head>
+<body class="p-4">
+   <div class="md:max-w-[30rem] mx-auto lg:max-w-[70rem] lg:mx-auto lg:flex items-start gap-[3.5rem]">
+        <div>
+            <header>
+                <div>
+                    <button class="flex items-center text-[#1E1E1E] text-[1.125rem] font-[700] leading-normal">
+                        <img class="w-[1.9rem] h-[1.9rem]" src="./images/back.png" alt="back">
+                        Shopping Continue
+                    </button>
+                </div>
+            </header>
+
+            <!-- !horizontal line -->
+            <div class="h-[.09rem] bg-[#D0CFCF] mt-4">
+            </div>
+            <!-- !end of horizontal line -->
+
+            <section class="lg:w-[38rem] flex-none">
+            <div class="mt-[1.5rem]">
+                <h1 class="text-[#1E1E1E] text-[1.125rem] font-[500] leading-normal">Shopping Cart</h1>
+                <p class="text-[1E1E1E] text-[.9rem] font-[500] leading-normal">You have 3 items in your cart.</p>
+            </div>
+
+            <article class="mt-[1.8rem] flex items-center justify-between rounded-[.9rem] shadow-lg">
+                <div class="flex items-center gap-[1rem]">
+                    <div>
+                        <img src="./images/pizza.png" alt="pizza">
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-[1.125rem] font-[500] leading-normal text-[#1E1E1E]">Italy Pizza</span>
+                        <span>Extra Cheese topping</span>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-[.5rem] lg:gap-[2.4rem] lg:p-4">
+                    <div class="flex items-center lg:gap-[.5rem]">
+                        <span class="text-[#393939] text-[1.2rem] font-[600] leading-[100%]">1</span>
+                        <div class="flex flex-col gap-[.1rem]">
+                            <button>
+                                <img src="./images/increment.svg" alt="increase">
+                            </button>
+                            <button>
+                                <img src="./images/decrement.svg" alt="decrease">
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="text-[1rem] font-[500] leading-normal text-right">$681</span>
+                    </div>
+                    <div>
+                        <button>
+                            <img class="w-[1.5rem]" src="./images/trash.png" alt="delete">
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="mt-[1.8rem] flex items-center justify-between rounded-[.9rem] shadow-lg">
+                <div class="flex items-center gap-[1rem]">
+                    <div>
+                        <img src="./images/combo.png" alt="combo">
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-[1.125rem] font-[500] leading-normal text-[#1E1E1E]">Combo Plate</span>
+                        <span>Extra Cheese and topping</span>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-[.5rem] lg:gap-[2.4rem] lg:p-4">
+                    <div class="flex items-center lg:gap-[.5rem]">
+                        <span class="text-[#393939] text-[1.2rem] font-[600] leading-[100%]">1</span>
+                        <div class="flex flex-col gap-[.1rem]">
+                            <button>
+                                <img src="./images/increment.svg" alt="increase">
+                            </button>
+                            <button>
+                                <img src="./images/decrement.svg" alt="decrease">
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="text-[1rem] font-[500] leading-normal text-right">$681</span>
+                    </div>
+                    <div>
+                        <button>
+                            <img class="w-[1.5rem]" src="./images/trash.png" alt="delete">
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="mt-[1.8rem] flex items-center justify-between rounded-[.9rem] shadow-lg">
+                <div class="flex items-center gap-[1rem]">
+                    <div>
+                        <img src="./images/rice.png" alt="rice">
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-[1.125rem] font-[500] leading-normal text-[#1E1E1E]">Spanish Rice</span>
+                        <span>Extra Garlic</span>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-[.5rem] lg:gap-[2.4rem] lg:p-4">
+                    <div class="flex items-center lg:gap-[.5rem]">
+                        <span class="text-[#393939] text-[1.2rem] font-[600] leading-[100%]">1</span>
+                        <div class="flex flex-col gap-[.1rem]">
+                            <button>
+                                <img src="./images/increment.svg" alt="increase">
+                            </button>
+                            <button>
+                                <img src="./images/decrement.svg" alt="decrease">
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="text-[1rem] font-[500] leading-normal text-right">$681</span>
+                    </div>
+                    <div>
+                        <button>
+                            <img class="w-[1.5rem]" src="./images/trash.png" alt="delete">
+                        </button>
+                    </div>
+                </div>
+            </article>
+            </section>
+        </div>
+
+
+    <section class="lg:w-[25rem] mt-4 p-4 bg-[#565ABB] rounded-[1.25rem]">
+        <div class="flex items-center justify-between">
+            <h1 class="text-[#FEFCFC] text-[1.4rem] font-[600]">Card Details</h1>
+            <img src="./images/profile.png" alt="profile">
+        </div>
+        <div class="mt-[1.5rem]">
+
+            <h1 class="text-[1rem] font-[500] text-[#FEFCFC]">Card Type</h1>
+
+            <div class=" flex gap-[1rem]">
+                <div class="flex flex-wrap items-center gap-[.5rem]">
+                    <div>
+                        <img src="./images/mastercard.png" alt="mastercard">
+                    </div>
+                </div>
+                <div class="flex flex-wrap items-center gap-[.5rem]">
+                    <div>
+                        <img src="./images/visa.png" alt="visa">
+                    </div>
+                </div>
+                <div class="flex flex-wrap items-center gap-[.5rem]">
+                    <div>
+                        <img src="./images/rupay.png" alt="rupay.png">
+                    </div>
+                </div>
+                <div class="flex items-center justify-center bg-[#6268C6] w-[4.6rem] h-[3.4rem] rounded-[.3rem]">
+                    <div class="text-[#FEFCFC] font-[700]">
+                     See all
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+
+        <!-- !Inputs -->
+        <div class="mt-[1.7rem]">
+            <p class="text-[#FEFCFC] text-[.9rem] font-[500]">Name on Card</p>
+            <div>
+                <input type="text" class="bg-[#6268C6] placeholder:text-[#C4C4C4] placeholder:text-[.75rem] placeholder:font-[500] p-2 w-full rounded-[.4rem]" placeholder="Name">
+            </div>
+        </div>
+        <div class="mt-[1rem]">
+            <p class="text-[#FEFCFC] text-[.9rem] font-[500]">Card Number</p>
+            <div>
+                <input type="text" class="bg-[#6268C6] placeholder:text-[#C4C4C4] placeholder:text-[.75rem] placeholder:font-[500] p-2 w-full rounded-[.4rem]" placeholder="1111 2222 3333 4444">
+            </div>
+        </div>
+
+        <!-- !flex inputs -->
+        <div class="mt-[1rem] flex items-center gap-[.2rem]">
+
+            <div class="w-1/2 flex-none">
+                <p class="text-[#FEFCFC] text-[.9rem] font-[500]">Expiration Date</p>
+                <input type="text" name="expiration" placeholder="mm/yy" class="w-full bg-[#6268C6] placeholder:text-[#C4C4C4] placeholder:text-[.75rem] placeholder:font-[500] p-2 rounded-[.4rem]">
+            </div>
+            <div class="w-1/2 flex-none">
+                <p class="text-[#FEFCFC] text-[.9rem] font-[500]">CVV</p>
+                <input type="text" name="cvv" placeholder="123" class="w-full bg-[#6268C6] placeholder:text-[#C4C4C4] placeholder:text-[.75rem] placeholder:font-[500] p-2  rounded-[.4rem]">
+            </div>
+        </div>
+        
+         <!-- !horizontal line -->
+     <div class="h-[.09rem] bg-[#D0CFCF] mt-4">
+    </div>
+    <!-- !end of horizontal line -->
+
+
+        <article class="mt-4 flex flex-col gap-[.5rem]">
+            <div class="flex items-center justify-between">
+                <span class="text-[#FEFCFC] text-[.9rem] font-[500]">Subtotal</span>
+                <span class="text-[#FEFCFC] text-[.9rem] font-[500] text-right">$1,688</span>
+            </div>
+            <div class="flex items-center justify-between">
+                <span class="text-[#FEFCFC] text-[.9rem] font-[500]">Shipping</span>
+                <span class="text-[#FEFCFC] text-[.9rem] font-[500] text-right">$4</span>
+            </div>
+            <div class="flex items-center justify-between">
+                <span class="text-[#FEFCFC] text-[.9rem] font-[500]">Total (Tax incl.)</span>
+                <span class="text-[#FEFCFC] text-[.9rem] font-[500] text-right">$1,672</span>
+            </div>
+
+
+
+            <button class="mt-[1.6rem] w-full p-4 bg-[#4DE1C1] text-[#FEFCFC] flex items-center justify-between rounded-[.75rem]">
+                <span>$1,672</span>
+                <span class="flex items-center gap-[.5rem]">
+                    Checkout 
+                    <img src="./images/right.png" alt="go">
+                </span>
+            </button>
+        </article>
+    </section>
+   </div>
+</body>
+</html>
