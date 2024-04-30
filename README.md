@@ -5,5 +5,6 @@ This is a simple project that will depict the functionality of a shopping cart. 
 ## Tech Stack
 This project is built with HTML for the markup and Tailwind for the styling of the project.
 
+## Screenshots
 ![](./screenshots/mobileIndex.png)
 ![](./screenshots/tabletIndex.png)
